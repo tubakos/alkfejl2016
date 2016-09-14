@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px red
+}
+
+p + p {
+    font-weight: bold
+}
+
+.h1 {
+    background: yellow
+}
+
+
+p span {
+    color: red
+}
+
+li {
+    font-size: 200%
+}
