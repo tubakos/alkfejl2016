@@ -1,0 +1,100 @@
+böngészőben F12 -> Console:
+
+	3+2
+
+	function foo() {return 1;}
+
+	foo()
+
+	function add(a, b) {return a+b;}
+
+	add(1,4)
+
+	var f = function (a) { return a*2; }
+
+	f(2)
+
+	var g = (a) => {return  a*2;}
+
+	g(5)
+
+	var h = (a) => a*2
+
+	h(5)
+	
+	
+	var arr = new Array('Körte', 'Alma', 'banán');
+	arr.length;
+	arr.push('Eper', 'Kiwi');
+	arr 
+	arr.filter(item => item.length == 4)
+
+	var a = [ 2, 4, 5, 6, 7, 8, 21]
+	
+	a
+	
+	a.map( x => x*3 )
+	
+	a
+	
+	a.map( x => x*3 ).filter(x => x < 20)
+	
+
+	a.forEach(elem => console.log(elem))
+	
+	a.reduce((x,y) => x + y, 0)
+	
+	var o = {}             //objektum
+
+	o
+	
+	var person = { name: 'Béla', age: 12 }
+
+	person
+	
+	person.age
+
+	person['age']
+	
+	person.age=70
+
+	person.age
+	
+	person.dogName='Kutya'
+	
+	person
+	
+	delete person.age
+	
+	person
+	
+	person.sayHi = () => console.log('Hi')
+
+	person.sayHi()
+
+	person.sayHi = () => console.log('Hi, I am ' + this.name)
+	
+	person.sayHi()
+
+
+	person.sayHi = function() { console.log('Hi, I am ' + this.name)}
+
+	person.sayHi()
+
+
+	
+=== operátor a típusokat is összehasonlítja, nem csak az értéket
+
+
+
+https://bitbucket.org/gyozke/alkfejl-async/src
+basics.js
+classes.js
+callback.js
+promise.js
+convert_images.js
+convert_images_promise.js
+convert_images_promise1.js
+generators.js
+convert_images_generators.js
+
