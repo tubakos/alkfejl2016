@@ -1,0 +1,14 @@
+visual studio code - terminál megnyitása: ctrl+ö
+
+
+
+npm init   - package.json létrejön
+npm install express --save          - express telepítése
+
+middleware-ek: app.use(...)
+
+
+npm install nunjucks --save
+view mappa létrehozás, master.njk
+http://localhost:3000/hello/Paksi%20Atom%20Endre?city=Debrecen
+
