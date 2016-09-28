@@ -12,3 +12,5 @@ npm install nunjucks --save
 view mappa létrehozás, master.njk
 http://localhost:3000/hello/Paksi%20Atom%20Endre?city=Debrecen
 
+npm install body-parser --save
+
